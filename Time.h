@@ -12,9 +12,9 @@ public:
 
 void TIME::getTime(){
   int hour, min, sec, sumtime, summin, sumhour;
-  cout<<"Example input: hh:mm:ss\n";
+  cout<<"Example input=> hh:mm:ss\n";
   cin>>hour>>ch>>min>>ch>>sec;
-  sumtime = (hour*3600)+(min*60)+sec;
+  sumtime = (hour*3600)+(min*60)+sec; 
   summin = sumtime/60;
   sumhour = summin/60;
   s = sumtime%60;
